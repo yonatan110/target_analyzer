@@ -43,7 +43,6 @@ class target_analyzer:
     # Scanning specific port
     def scan_specific_port(self, port):
         print(f"Scanning {port}...")
-        time.sleep(2)
         try:
             socket.setdefaulttimeout(3)
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
