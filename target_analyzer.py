@@ -50,6 +50,8 @@ class target_analyzer:
             print("=" * 30)
             if result == 0:
                 print(f"Port {port} is UP")
+            else:
+                print(f"Port {port} is not UP")
         except:
             print(f"Port {port} is not UP")
         print("=" * 30)
