@@ -1,0 +1,10 @@
+{
+    "kali": "kali",
+    "root": "admin",
+    "admin": "admin",
+    "user": "user",
+    "test": "test",
+    "ubuntu": "ubuntu",
+    "pi": "raspberry",
+    "guest": "guest"
+}
