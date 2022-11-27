@@ -152,7 +152,7 @@ def welcome_message():
 def ip_analyze_options():
     print("=" * 30)
     options = f"Analyzing option:\n-Ping target\n-Scan TCP ports" \
-              f"\n-Scan specific port\n-hack ssh user\n-SSH connect" \
+              f"\n-Scan specific port\n-Hack ssh user\n-SSH connect" \
               "\n-Main menu\n-Reselect target\n-Exit"
     print(options)
     print("=" * 30)
